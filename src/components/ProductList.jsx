@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ProductContext } from "../context/productContext";
+import { ProductContext } from "../context/ProductContext";
 import { ProductCard } from "./ProductCard";
 import { ProductSkeleton } from "./ProductCardSkeleton";
 

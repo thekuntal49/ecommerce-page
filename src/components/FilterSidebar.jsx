@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
-import { ProductContext } from "../context/productContext";
+import { ProductContext } from "../context/ProductContext";
 
 const FilterSidebar = () => {
   const { filterProducts, products } = useContext(ProductContext);
